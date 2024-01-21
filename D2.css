@@ -1,0 +1,41 @@
+#container {
+  /* border: solid 1px red; */
+  margin: auto;
+  width: 60%;
+  height: 500px;
+  background-color: #ac567c;
+}
+
+#heading {
+  /* border: solid 1px blue; */
+  height: 50px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading_cont {
+  /* border: solid orange 1px; */
+  height: 40px;
+  width: 40%;
+}
+
+p {
+  margin: 2px;
+  font-family: "Didact Gothic", sans-serif;
+  font-weight: 600;
+}
+
+#cont_right {
+  text-align: right;
+}
+
+
+#content{
+      border: solid orange 1px;
+      height: 300px;
+      width: 70%;
+      margin: auto;
+      border-radius: 5px;
+}
