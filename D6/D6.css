@@ -1,0 +1,39 @@
+.container {
+  margin: auto;
+  border: solid 1px red;
+  height: 100px;
+  width: 100px;
+  outline: dotted 1px blue;
+  outline-offset: 10px;
+  /* display: inline; */
+  padding: 10px;
+  padding: 25px 50px 75px 100px;
+}
+
+
+#list_container{
+    border: solid 1px red;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+}
+
+ul {
+    list-style-type: square;
+    /* list-style-image: url(""); */
+}
+ol{
+    display: none;
+    list-style-type:lower-roman;
+}
+
+.position_test{
+    border: solid 1px red;
+    height: 200px;
+    width: 200px;
+
+    position: relative;
+  /* top: 100px; */
+    left:200px;
+    
+}
