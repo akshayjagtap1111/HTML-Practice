@@ -1,0 +1,32 @@
+#div1 {
+  border: solid black 1px;
+  height: 300px;
+  width: 300px;
+  margin: auto;
+  background-color: red;
+  position: relative;
+  top: 100px;
+}
+
+#div2 {
+  border: solid black 1px;
+  height: 300px;
+  width: 300px;
+  margin: auto;
+  background-color: rgb(242, 255, 0);
+  position: relative;
+  left: 100px;
+  top: -100px;
+  z-index: 1;
+}
+
+#div3 {
+  border: solid black 1px;
+  height: 300px;
+  width: 300px;
+  margin: auto;
+  background-color: rgb(21, 230, 32);
+  position: relative;
+  left: 200px;
+  top: -250px;
+}
