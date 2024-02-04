@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="Input.css" />
+  </head>
+  <body>
+    <form action="">
+      <label for="phone">Enter a phone number:</label><br /><br />
+      <input
+        type="tel"
+        id="phone"
+        name="phone"
+        placeholder="123-45-678"
+        pattern="[0-3]{3}-[6-7]{2}-[0-9]{3}"
+        required
+      /><br /><br />
+
+      <input type="submit" />
+    </form>
+
+    <input type="text" list="mydata" />
+
+    <datalist id="mydata">
+      <option value="ABC">ABC</option>
+      <option value="OPT1">OPT1</option>
+      <option value="OPT2">OPT2</option>
+      <option value="OPT3">OPT3</option>
+      <option value="OPT4">OPT4</option>
+    </datalist>
+
+    <label for="tick">Tip amount:</label>
+    <input
+      type="range"
+      list="tickmarks"
+      min="0"
+      max="100"
+      id="tick"
+      name="tick"
+     
+    />
+    <datalist id="tickmarks" >
+      <option value="0"></option>
+      <option value="10"></option>
+      <option value="20"></option>
+      <option value="30"></option>
+    </datalist>
+  </body>
+</html>
+<script>
+
+    function Test(){
+        console.log("tested")
+    }
+
+    Test();
+</script>

@@ -1,0 +1,44 @@
+.container {
+  border: solid rgb(17, 0, 255) 1px;
+  height: 800px;
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 100px;
+  /* background-image: url(myimg.jpg);
+    background-size: 100%;
+    opacity: 0.9; */
+}
+
+.partition {
+  border: solid red 1px;
+  min-height: 100%;
+  width: 50%;
+}
+
+.login_intro_part_1 {
+  display: flex;
+  /* flex-direction: column; */
+ 
+}
+
+.login_intro_content {
+  border: solid rgb(151, 98, 13) 1px;
+  height: 200px;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.org_name{
+    position: absolute;
+    /* top: 10; */
+    margin: 50px;
+    
+}
+
+.welcome_title{
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}

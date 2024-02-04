@@ -1,0 +1,35 @@
+.common{
+    border: solid red 1px;
+    height: 300px;
+    width: 80%;
+    margin: auto;
+}
+
+#div1{
+    background-color: lemonchiffon;
+}
+
+#div2{
+    background-color: rgb(226, 182, 37);
+}
+
+#div3{
+    background-color: rgb(119, 195, 234);
+}
+
+#div4{
+    background-color: rgb(231, 147, 210);
+}
+
+#div5{
+    background-color: rgb(94, 243, 186);
+}
+.mydiv{
+    border: solid blue 1px;
+    height: 100px;
+    width: 200px;
+    position: fixed;
+    top: 200px;
+    left: calc(50%) ;
+    z-index: 1;
+}
