@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    border: solid black 1px;
+    width: 80%;
+    height: 200px;
+    /* flex-wrap: wrap; */
+    justify-content:center;
+    /* align-items:flex-start; */
+}
+
+.container div {
+    border: solid rgb(255, 119, 0) 1px;
+    /* margin: auto; */
+    /* width: auto; */
+}
+.container :nth-child(1){
+    flex-grow: 1;
+}
+
+.container :nth-child(2){
+    flex-grow: 1;
+}
+
+.container :nth-child(3){
+    flex-grow: 1;
+}
+.container :nth-child(4){
+    flex-grow: 1;
+}

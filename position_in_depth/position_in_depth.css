@@ -1,0 +1,48 @@
+.mydiv {
+  /* border: solid black 5px; */
+  min-height: 150px;
+  min-width: 150px;
+  /* margin: 20px; */
+}
+#child {
+  width: 50px;
+  height: 50px;
+  background-color: yellow;
+  margin: auto;
+z-index: -1;
+  position: relative;
+}
+
+#red_div {
+  background-color: red;
+  position: relative;
+  /* z-index: -1; */
+  display: flex;
+  opacity: 0.7;
+}
+
+#blue_div {
+  background-color: blue;
+  position: relative;
+  left: 150px;
+}
+#green_div {
+  background-color: green;
+  position: absolute;
+  left: 250px;
+  top: 20px;
+  /* bottom: 50px; */
+}
+
+#yellow_div {
+  background-color: yellow;
+}
+
+#orange_div {
+  background-color: orange;
+}
+
+#outer {
+  /* border: solid; */
+  position: fixed;
+}
